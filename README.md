@@ -27,7 +27,7 @@ It is designed with simple functionality in mind, perfect for a restroom setting
 
 * Requires a music player with MP3 files in its library:
     ```
-    apt-get install mpd
+    apt-get install mpc mpd
 
     # /var/lib/mpd/music/
     ```
