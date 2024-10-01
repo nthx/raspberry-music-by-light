@@ -29,7 +29,12 @@ It is designed with simple functionality in mind, perfect for a restroom setting
     ```
     apt-get install mpc mpd
 
-    # /var/lib/mpd/music/
+    # example of: /var/lib/mpd/music/ (extra files allowed)
+    /var/lib/mpd/music/rod_s/00_never.sfv
+    /var/lib/mpd/music/rod_s/01_blind.mp3
+    /var/lib/mpd/music/rod_s/07_swar.mp3
+    /var/lib/mpd/music/rod_s/05_angel.mp3
+    ...
     ```
 
 ## Configuration
