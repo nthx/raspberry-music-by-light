@@ -41,9 +41,9 @@ def main():
     execute('/usr/bin/mpc clear')
     execute('/usr/bin/mpc ls | /usr/bin/mpc add')
     print
-    print '*' * 50
-    print execute('/usr/bin/mpc playlist')
-    print '*' * 50
+    print('*' * 50)
+    print(execute('/usr/bin/mpc playlist'))
+    print('*' * 50)
 
     light_on = False
     light_on_time = 0
@@ -151,6 +151,6 @@ def get_volume():
         return config_volume_night
 
 def log(msg):
-    print "%s: %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), msg)
+    print("%s: %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), msg))
 
 main()
