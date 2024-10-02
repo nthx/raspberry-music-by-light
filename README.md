@@ -15,7 +15,7 @@ It is designed with simple functionality in mind, perfect for a restroom setting
 ## Software
 * Tested and running on an older version of Debian/Raspbian:
     ```
-    10.0
+    10.0+
     # /etc/apt/sources.list
     # deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
     ```
@@ -42,6 +42,7 @@ It is designed with simple functionality in mind, perfect for a restroom setting
 * Download the repository:
     ```sh
     cd /home/pi/
+    sudo apt-get install python python-rpi.gpio
     git clone git@github.com:nthx/raspberry-music-by-light.git
     ```
 
