@@ -37,6 +37,22 @@ It is designed with simple functionality in mind, perfect for a restroom setting
     ...
     ```
 
+    Run after uploading mp3s:
+    ```
+    mpc update
+    mpc ls
+    ```
+    This should list all available audio files to play
+
+    Enable Alsa output in `/etc/mpd.conf`:
+    ```
+    audio_output {
+        type            "alsa"
+        name            "My ALSA Device"
+    }
+    ```
+
+
 ## Configuration
 
 * Download the repository:
